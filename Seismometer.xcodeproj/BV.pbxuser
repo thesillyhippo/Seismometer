@@ -1,0 +1,200 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* SeismometerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 499}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SeismometerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1066}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 371}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Seismometer */ = {
+		activeExec = 0;
+		executables = (
+			A30BE482142199A10050437E /* Seismometer */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* SeismometerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 468}}";
+			sepNavSelRange = "{217, 0}";
+			sepNavVisRange = "{0, 432}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* SeismometerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {845, 2574}}";
+			sepNavSelRange = "{5222, 0}";
+			sepNavVisRange = "{1523, 653}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A30BE482142199A10050437E /* Seismometer */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Seismometer */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Seismometer */,
+		);
+		codeSenseManager = A30BE48D142199C00050437E /* Code sense */;
+		executables = (
+			A30BE482142199A10050437E /* Seismometer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337749860;
+			PBXWorkspaceStateSaveDate = 337749860;
+		};
+		perUserProjectItems = {
+			A30BE4EA1421A47F0050437E /* PBXTextBookmark */ = A30BE4EA1421A47F0050437E /* PBXTextBookmark */;
+			A30BE4EB1421A47F0050437E /* PBXTextBookmark */ = A30BE4EB1421A47F0050437E /* PBXTextBookmark */;
+			A30BE4EC1421A47F0050437E /* PBXTextBookmark */ = A30BE4EC1421A47F0050437E /* PBXTextBookmark */;
+			A30BE5061421A5510050437E /* PBXTextBookmark */ = A30BE5061421A5510050437E /* PBXTextBookmark */;
+			A35D553014227FF30013CCFC /* PBXBookmark */ = A35D553014227FF30013CCFC /* PBXBookmark */;
+			A35D553114227FF30013CCFC /* PlistBookmark */ = A35D553114227FF30013CCFC /* PlistBookmark */;
+			A35D553214227FF30013CCFC /* PlistBookmark */ = A35D553214227FF30013CCFC /* PlistBookmark */;
+		};
+		sourceControlManager = A30BE48C142199C00050437E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A30BE482142199A10050437E /* Seismometer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Seismometer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A30BE48C142199C00050437E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A30BE48D142199C00050437E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A30BE4EA1421A47F0050437E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SeismometerAppDelegate.h */;
+		name = "SeismometerAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 0;
+	};
+	A30BE4EB1421A47F0050437E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SeismometerAppDelegate.m */;
+		name = "SeismometerAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 0;
+	};
+	A30BE4EC1421A47F0050437E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SeismometerViewController.h */;
+		name = "SeismometerViewController.h: 10";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 432;
+		vrLoc = 0;
+	};
+	A30BE5061421A5510050437E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SeismometerViewController.m */;
+		name = "SeismometerViewController.m: 199";
+		rLen = 0;
+		rLoc = 5222;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 1523;
+	};
+	A35D553014227FF30013CCFC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A30BE5021421A53A0050437E /* eq.png */;
+	};
+	A35D553114227FF30013CCFC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Seismometer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/BV/Desktop/ios/Seismometer/Seismometer-Info.plist";
+		rLen = 49;
+		rLoc = 0;
+	};
+	A35D553214227FF30013CCFC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Seismometer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/BV/Desktop/ios/Seismometer/Seismometer-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}

@@ -1,0 +1,525 @@
+TSeismometer
+v7
+r0
+t337749979.554959
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Seismometer.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Info.plist Seismometer-Info.plist
+cCompileXIB /Users/BV/Desktop/ios/Seismometer/MainWindow.xib
+cCompileXIB /Users/BV/Desktop/ios/Seismometer/SeismometerViewController.xib
+cCopyPNGFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/eq.png eq.png
+cCopyPNGFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/scaryhippo.png scaryhippo.png
+cProcessPCH /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-bxowksjqppkqjrcggyokytwiyziq/Seismometer_Prefix.pch.gch Seismometer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-cdnasjbokenexygqlcpcyiyatvdf/Seismometer_Prefix.pch.gch Seismometer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/main.o /Users/BV/Desktop/ios/Seismometer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerAppDelegate.o /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerViewController.o /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer normal armv6
+cCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/main.o /Users/BV/Desktop/ios/Seismometer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerAppDelegate.o /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerViewController.o /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer normal armv7
+cCreateUniversalBinary /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer normal "armv6 armv7"
+cGenerateDSYMFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app.dSYM /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer
+cProcessProductPackaging "/Users/BV/Library/MobileDevice/Provisioning Profiles/28712F1C-8A6A-4101-AD00-BD957C76F2F8.mobileprovision" /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/embedded.mobileprovision
+cTouch /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer.xcent
+cCodeSign /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c000000004CC11B62000000000010D080
+t1287723874
+s1101952
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CoreMotion.h
+c000000004CC11B5400000000000001CB
+t1287723860
+s459
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.h
+c000000004E71622100000000000001FA
+t1316053537
+s506
+i<UIKit/UIKit.h>
+
+N/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m
+c000000004E7162210000000000000AAC
+t1316053537
+s2732
+i"SeismometerAppDelegate.h"
+i"SeismometerViewController.h"
+
+N/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.h
+c000000004E7164FE0000000000000352
+t1316054270
+s850
+i<UIKit/UIKit.h>
+i<CoreMotion/CoreMotion.h>
+
+N/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m
+c000000004E7162AC0000000000001466
+t1316053676
+s5222
+i"SeismometerViewController.h"
+
+N/Users/BV/Desktop/ios/Seismometer/MainWindow.xib
+c000000004E7162210000000000004E59
+t1316053537
+s20057
+
+N/Users/BV/Desktop/ios/Seismometer/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg
+c000000004E716D5D0000000000004A14
+t1316056413
+s18964
+
+N/Users/BV/Desktop/ios/Seismometer/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png
+c000000004E716D5D0000000000004A14
+t1316056413
+s18964
+
+N/Users/BV/Desktop/ios/Seismometer/SeismometerViewController.xib
+c000000004E7166840000000000007057
+t1316054660
+s28759
+
+N/Users/BV/Desktop/ios/Seismometer/Seismometer_Prefix.pch
+c000000004E71622100000000000000BF
+t1316053537
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app
+t1316057179
+s442
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app.dSYM
+t1316054367
+s102
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Info.plist
+t1316057178
+s837
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/MainWindow.nib
+t1316054365
+s1131
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg
+t1316056464
+s18964
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png
+t2
+s0
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/PkgInfo
+t1316057178
+s8
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/ResourceRules.plist
+t1316054365
+s485
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer
+t1316054367
+s72480
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/SeismometerViewController.nib
+t1316054666
+s2491
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/embedded.mobileprovision
+t1316054367
+s7460
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/eq.png
+t2
+s0
+
+N/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/scaryhippo.png
+t1316057179
+s51716
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer
+t1316054367
+s29756
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer.LinkFileList
+c000000004E71655D000000000000018C
+t1316054365
+s396
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerAppDelegate.o
+t1316054366
+s51120
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerViewController.o
+t1316054367
+s57004
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/main.o
+t1316054366
+s6436
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer
+t1316054367
+s25348
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer.LinkFileList
+c000000004E71655D000000000000018C
+t1316054365
+s396
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerAppDelegate.o
+t1316054367
+s51040
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerViewController.o
+t1316054367
+s54932
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/main.o
+t1316054366
+s6420
+
+N/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer.xcent
+t1316057179
+s633
+
+N/Users/BV/Desktop/ios/Seismometer/eq.png
+c000000004E716D5D0000000000004A14
+t1316056413
+s18964
+
+N/Users/BV/Desktop/ios/Seismometer/main.m
+c000000004E7162210000000000000170
+t1316053537
+s368
+i<UIKit/UIKit.h>
+
+N/Users/BV/Desktop/ios/Seismometer/scaryhippo.png
+c000000004E6EB263000000000000DF24
+t1315877475
+s57124
+
+N/Users/BV/Library/MobileDevice/Provisioning Profiles/28712F1C-8A6A-4101-AD00-BD957C76F2F8.mobileprovision
+c000000004E7135230000000000001D24
+t1316042019
+s7460
+
+N/var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-bxowksjqppkqjrcggyokytwiyziq/Seismometer_Prefix.pch.gch
+t1316054366
+s9983704
+
+N/var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-cdnasjbokenexygqlcpcyiyatvdf/Seismometer_Prefix.pch.gch
+t1316054366
+s10446552
+
+NSeismometer-Info.plist
+c000000004E717058000000000000039B
+t1316057176
+s923
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337749978#337749978#0(0"0(0#1#0"8612778240#0"0#
+
+CCodeSign /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app
+s337749979.344922
+e337749979.554920
+r1
+xCodeSign
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app
+o/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app: replacing invalid existing signature
+lSLF07#2@45"CodeSign build/Debug-iphoneos/Seismometer.app337749979#337749979#0(109"/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app: replacing invalid existing signature0(0#0#70"/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app8604406432#651"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Bao-Viet Nguyen (8ANQ95SW29)" --resource-rules=/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/ResourceRules.plist --entitlements /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer.xcent /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app0#
+
+CCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerAppDelegate.o /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337747166.757104
+e337747166.870838
+r1
+xCompileC
+xbuild/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerAppDelegate.o
+x/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m337747166#337747166#0(0"0(0#0#66"/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m8623546720#1793"    cd /Users/BV/Desktop/ios/Seismometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-generated-files.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-own-target-headers.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-all-target-headers.hmap -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-project-headers.hmap -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -I/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/include -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources/armv6 -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources -include /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-bxowksjqppkqjrcggyokytwiyziq/Seismometer_Prefix.pch -c /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerAppDelegate.o0#
+
+CCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerViewController.o /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337747166.814663
+e337747167.039389
+r1
+xCompileC
+xbuild/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerViewController.o
+x/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m337747166#337747167#0(0"0(0#0#69"/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m8622056256#1799"    cd /Users/BV/Desktop/ios/Seismometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-generated-files.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-own-target-headers.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-all-target-headers.hmap -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-project-headers.hmap -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -I/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/include -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources/armv6 -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources -include /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-bxowksjqppkqjrcggyokytwiyziq/Seismometer_Prefix.pch -c /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/SeismometerViewController.o0#
+
+CCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/main.o /Users/BV/Desktop/ios/Seismometer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337747166.756014
+e337747166.814559
+r1
+xCompileC
+xbuild/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/main.o
+x/Users/BV/Desktop/ios/Seismometer/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/BV/Desktop/ios/Seismometer/main.m337747166#337747166#0(0"0(0#0#40"/Users/BV/Desktop/ios/Seismometer/main.m8624155648#1749"    cd /Users/BV/Desktop/ios/Seismometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-generated-files.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-own-target-headers.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-all-target-headers.hmap -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-project-headers.hmap -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -I/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/include -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources/armv6 -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources -include /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-bxowksjqppkqjrcggyokytwiyziq/Seismometer_Prefix.pch -c /Users/BV/Desktop/ios/Seismometer/main.m -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerAppDelegate.o /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337747166.969551
+e337747167.066550
+r1
+xCompileC
+xbuild/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerAppDelegate.o
+x/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m337747166#337747167#0(0"0(0#0#66"/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m8622724576#1793"    cd /Users/BV/Desktop/ios/Seismometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-generated-files.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-own-target-headers.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-all-target-headers.hmap -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-project-headers.hmap -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -I/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/include -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources/armv7 -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources -include /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-cdnasjbokenexygqlcpcyiyatvdf/Seismometer_Prefix.pch -c /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerAppDelegate.m -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerAppDelegate.o0#
+
+CCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerViewController.o /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337747167.066663
+e337747167.179653
+r1
+xCompileC
+xbuild/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerViewController.o
+x/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m337747167#337747167#0(0"0(0#0#69"/Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m8621048576#1799"    cd /Users/BV/Desktop/ios/Seismometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-generated-files.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-own-target-headers.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-all-target-headers.hmap -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-project-headers.hmap -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -I/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/include -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources/armv7 -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources -include /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-cdnasjbokenexygqlcpcyiyatvdf/Seismometer_Prefix.pch -c /Users/BV/Desktop/ios/Seismometer/Classes/SeismometerViewController.m -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/SeismometerViewController.o0#
+
+CCompileC build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/main.o /Users/BV/Desktop/ios/Seismometer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337747166.870947
+e337747166.969445
+r1
+xCompileC
+xbuild/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/main.o
+x/Users/BV/Desktop/ios/Seismometer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/BV/Desktop/ios/Seismometer/main.m337747166#337747166#0(0"0(0#0#40"/Users/BV/Desktop/ios/Seismometer/main.m8621579872#1749"    cd /Users/BV/Desktop/ios/Seismometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-generated-files.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-own-target-headers.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-all-target-headers.hmap -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-project-headers.hmap -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -I/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/include -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources/armv7 -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources -include /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-cdnasjbokenexygqlcpcyiyatvdf/Seismometer_Prefix.pch -c /Users/BV/Desktop/ios/Seismometer/main.m -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/BV/Desktop/ios/Seismometer/MainWindow.xib
+s337747165.493292
+e337747166.004784
+r1
+xCompileXIB
+x/Users/BV/Desktop/ios/Seismometer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib337747165#337747166#0(0"0(0#0#48"/Users/BV/Desktop/ios/Seismometer/MainWindow.xib8622012512#531"    cd /Users/BV/Desktop/ios/Seismometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/MainWindow.nib /Users/BV/Desktop/ios/Seismometer/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/BV/Desktop/ios/Seismometer/SeismometerViewController.xib
+s337747465.904716
+e337747466.382971
+r1
+xCompileXIB
+x/Users/BV/Desktop/ios/Seismometer/SeismometerViewController.xib
+lSLF07#2@40"CompileXIB SeismometerViewController.xib337747465#337747466#0(0"0(0#0#63"/Users/BV/Desktop/ios/Seismometer/SeismometerViewController.xib8624522944#561"    cd /Users/BV/Desktop/ios/Seismometer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/SeismometerViewController.nib /Users/BV/Desktop/ios/Seismometer/SeismometerViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png
+s337749583.115391
+e337749583.139819
+r1
+xCopyPNGFile
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png
+xMexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png
+o
+oWhile reading /Users/BV/Desktop/ios/Seismometer/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png
+lSLF07#2@166"CopyPNGFile build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png337749583#337749583#0(310"While reading /Users/BV/Desktop/ios/Seismometer/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png0(0#0#92"/Users/BV/Desktop/ios/Seismometer/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png8627422400#645"    cd /Users/BV/Desktop/ios/Seismometer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/BV/Desktop/ios/Seismometer/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.png0#
+
+CCopyPNGFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/eq.png eq.png
+s337749978.989981
+e337749979.025585
+r1
+xCopyPNGFile
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/eq.png
+xeq.png
+o
+oWhile reading /Users/BV/Desktop/ios/Seismometer/eq.png pngcrush caught libpng error:
+o   Not a PNG file..
+o
+oCould not find file: /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/eq.png
+lSLF07#2@62"CopyPNGFile build/Debug-iphoneos/Seismometer.app/eq.png eq.png337749978#337749979#0(206"While reading /Users/BV/Desktop/ios/Seismometer/eq.png pngcrush caught libpng error:   Not a PNG file..Could not find file: /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/eq.png0(0#0#40"/Users/BV/Desktop/ios/Seismometer/eq.png8613062080#541"    cd /Users/BV/Desktop/ios/Seismometer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/BV/Desktop/ios/Seismometer/eq.png /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/eq.png0#
+
+CCopyPNGFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/scaryhippo.png scaryhippo.png
+s337749978.992297
+e337749979.338653
+r1
+xCopyPNGFile
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/scaryhippo.png
+xscaryhippo.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/Seismometer.app/scaryhippo.png scaryhippo.png337749978#337749979#0(0"0(0#0#48"/Users/BV/Desktop/ios/Seismometer/scaryhippo.png8606285536#557"    cd /Users/BV/Desktop/ios/Seismometer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/BV/Desktop/ios/Seismometer/scaryhippo.png /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/scaryhippo.png0#
+
+CCpResource build/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg
+s337749264.438121
+e337749264.443466
+r1
+xCpResource
+xbuild/Debug-iphoneos/Seismometer.app/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg
+xMexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg
+lSLF07#2@63"Copy Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg337749264#337749264#0(0"0(0#0#92"/Users/BV/Desktop/ios/Seismometer/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg8627223808#491"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/BV/Desktop/ios/Seismometer/Mexico-shocked-by-earthquake-recorded-6-Richter-Scale-.jpg /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app0#
+
+CCpResource build/Debug-iphoneos/Seismometer.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s337747165.487464
+e337747165.493015
+r1
+xCpResource
+xbuild/Debug-iphoneos/Seismometer.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist337747165#337747165#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8623161920#488"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app0#
+
+CCreateUniversalBinary /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer normal "armv6 armv7"
+s337747167.213157
+e337747167.216702
+r1
+xCreateUniversalBinary
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary build/Debug-iphoneos/Seismometer.app/Seismometer normal "armv6 armv7"337747167#337747167#0(0"0(0#0#45"/Users/BV/Desktop/ios/Seismometer/armv6 armv78619594464#530"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer -output /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer0#
+
+CGenerateDSYMFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app.dSYM /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer
+s337747167.216782
+e337747167.243467
+r1
+xGenerateDSYMFile
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app.dSYM
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/Seismometer.app.dSYM build/Debug-iphoneos/Seismometer.app/Seismometer337747167#337747167#0(0"0(0#0#82"/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer8605955328#359"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Seismometer -o /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app.dSYM0#
+
+CLd /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer normal armv6
+s337747167.039607
+e337747167.099206
+r1
+xLd
+x/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer
+xnormal
+xarmv6
+lSLF07#2@128"Link /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer337747167#337747167#0(0"0(0#0#0"8621836416#880"    cd /Users/BV/Desktop/ios/Seismometer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -filelist /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreMotion -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv6/Seismometer0#
+
+CLd /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer normal armv7
+s337747167.179748
+e337747167.213045
+r1
+xLd
+x/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer
+xnormal
+xarmv7
+lSLF07#2@128"Link /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer337747167#337747167#0(0"0(0#0#0"8621384384#880"    cd /Users/BV/Desktop/ios/Seismometer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -filelist /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreMotion -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Objects-normal/armv7/Seismometer0#
+
+CProcessInfoPlistFile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Info.plist Seismometer-Info.plist
+s337749978.940416
+e337749978.989774
+r1
+xProcessInfoPlistFile
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Info.plist
+xSeismometer-Info.plist
+lSLF07#2@30"Process Seismometer-Info.plist337749978#337749978#0(0"0(0#0#56"/Users/BV/Desktop/ios/Seismometer/Seismometer-Info.plist8609066720#558"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Seismometer-Info.plist -genpkginfo /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/ResourceRules.plist -o /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/Info.plist0#
+
+CProcessPCH /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-bxowksjqppkqjrcggyokytwiyziq/Seismometer_Prefix.pch.gch Seismometer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337747166.067906
+e337747166.722841
+r1
+xProcessPCH
+x/var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-bxowksjqppkqjrcggyokytwiyziq/Seismometer_Prefix.pch.gch
+xSeismometer_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Seismometer_Prefix.pch337747166#337747166#0(0"0(0#0#56"/Users/BV/Desktop/ios/Seismometer/Seismometer_Prefix.pch8624137600#1648"    cd /Users/BV/Desktop/ios/Seismometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-generated-files.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-own-target-headers.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-all-target-headers.hmap -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-project-headers.hmap -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -I/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/include -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources/armv6 -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources -c /Users/BV/Desktop/ios/Seismometer/Seismometer_Prefix.pch -o /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-bxowksjqppkqjrcggyokytwiyziq/Seismometer_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-cdnasjbokenexygqlcpcyiyatvdf/Seismometer_Prefix.pch.gch Seismometer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337747166.068898
+e337747166.755910
+r1
+xProcessPCH
+x/var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-cdnasjbokenexygqlcpcyiyatvdf/Seismometer_Prefix.pch.gch
+xSeismometer_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Seismometer_Prefix.pch337747166#337747166#0(0"0(0#0#56"/Users/BV/Desktop/ios/Seismometer/Seismometer_Prefix.pch8623885312#1648"    cd /Users/BV/Desktop/ios/Seismometer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-generated-files.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-own-target-headers.hmap -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-all-target-headers.hmap -iquote /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer-project-headers.hmap -F/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos -I/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/include -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources/armv7 -I/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/DerivedSources -c /Users/BV/Desktop/ios/Seismometer/Seismometer_Prefix.pch -o /var/folders/4d/4dOdmxGPEuKVG6a35Tr+e++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Seismometer_Prefix-cdnasjbokenexygqlcpcyiyatvdf/Seismometer_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/BV/Library/MobileDevice/Provisioning Profiles/28712F1C-8A6A-4101-AD00-BD957C76F2F8.mobileprovision" /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/embedded.mobileprovision
+s337747167.243582
+e337747167.268655
+r1
+xProcessProductPackaging
+x/Users/BV/Library/MobileDevice/Provisioning Profiles/28712F1C-8A6A-4101-AD00-BD957C76F2F8.mobileprovision
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/BV/Library/MobileDevice/Provisioning Profiles/28712F1C-8A6A-4101-AD00-BD957C76F2F8.mobileprovision" build/Debug-iphoneos/Seismometer.app/embedded.mobileprovision337747167#337747167#0(0"0(0#0#95"/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/embedded.mobileprovision8624170400#414"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/BV/Library/MobileDevice/Provisioning Profiles/28712F1C-8A6A-4101-AD00-BD957C76F2F8.mobileprovision" -o /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer.xcent
+s337749979.342993
+e337749979.344865
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer.xcent
+lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer.xcent337749979#337749979#0(0"0(0#0#108"/Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer.xcent8608577344#434"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/BV/Desktop/ios/Seismometer/build/Seismometer.build/Debug-iphoneos/Seismometer.build/Seismometer.xcent0#
+
+CTouch /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app
+s337749979.339831
+e337749979.342917
+r1
+xTouch
+x/Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app
+lSLF07#2@76"Touch /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app337749979#337749979#0(0"0(0#0#0"8613205408#258"    cd /Users/BV/Desktop/ios/Seismometer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/BV/Desktop/ios/Seismometer/build/Debug-iphoneos/Seismometer.app0#
+
